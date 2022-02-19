@@ -145,7 +145,6 @@ body{
 .btn-outline-black{
     color: var(--solid-black-color);
     border: solid 2px var(--solid-black-color);
-    /* font-weight: 400; */
 }
 
 .feature-body{

@@ -1,5 +1,4 @@
 @import url(/css/main.css);
-
 /* cart items styling */
 .cart-container{
     margin-top:2rem;
@@ -25,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    max-width: 40rem;
     margin:1rem;
     border: 1px solid var(--solid-black-color);
     border-radius: 4px;
@@ -55,7 +55,7 @@
 }
 
 .qty-input{
-    width:50px;
+    width:3.2rem;
     padding: 6px;
 }
 
@@ -70,6 +70,7 @@
     background-color: var(--checkoutbox-bg-color);
     padding: 1.5rem;
     width: 80%;
+    margin-top:3.4rem;
     margin-left:2rem;
 }
 
