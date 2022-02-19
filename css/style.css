@@ -1,8 +1,6 @@
-@import url(/pages/utilities-2.css);
+@import url(/css/main.css);
 
-:root{
-    --ecom-bg-color:#f1f2f7;
-}
+
 body{
     background-color: var(--ecom-bg-color);
 }
@@ -117,11 +115,6 @@ body{
     padding: 1.5rem 0;
 }
 
-.btn-primary{
-    background-color:var(--solid-black-color);
-    color:var(--tertiary-text-color);
-}
-
 .banner-right{
     flex:1;
     display:flex;
@@ -148,6 +141,10 @@ body{
 .btn-solid-black{
     background-color: var(--solid-black-color);
     color: var(--tertiary-text-color);
+}
+.btn-outline-black{
+    color: var(--solid-black-color);
+    border: solid 2px var(--solid-black-color);
 }
 
 .feature-body{
