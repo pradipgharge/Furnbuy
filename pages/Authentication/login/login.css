@@ -5,7 +5,7 @@
     flex-direction: column;
     width:25rem;
     padding: 1.5rem;
-    background-color: var(--tertiary-text-color);
+    background-color: var(--checkoutbox-bg-color);
     gap:10px;
     margin: 5rem auto;
     border-radius:4px;
@@ -43,6 +43,7 @@
     padding:8px 0;
     gap:8px;
 }
+
 .btn-link-primary{
     color: var(--solid-black-color);
     font-weight: 500;

@@ -1,7 +1,7 @@
 @import url(/css/main.css);
 .signup-form{
-    width: 32rem;
-    background-color: var(--tertiary-text-color);
+    width: 29rem;
+    background-color: var(--checkoutbox-bg-color);
     border-radius: 4px;
     border: 1px solid var(--light-gray-color);
     padding: 1.5rem;
