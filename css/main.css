@@ -16,8 +16,40 @@
     --checkoutbox-bg-color:#cce5eb;
 }
 
-.btn-solid-black:hover{
+/* card style modification for e-commerce */
+.card-body{
+    background-color: var(--tertiary-text-color);
+    color: var(--solid-black-color);
+}
+
+.card-footer{
+    padding: 10px;
+    background-color: var(--checkoutbox-bg-color);
+}
+
+/* button style modification for e-commerce */
+.btn-solid-primary{
+    background-color: var(--solid-black-color);
+    color: var(--tertiary-text-color);
+}
+
+.btn-solid-primary:hover{
+    background-color: var(--light-yellow-color);
+    color: var(--solid-black-color);
+    border: 1px solid var(--solid-black-color);
+}
+
+.btn-solid-secondary{
     background-color: var(--tertiary-text-color);
     color: var(--solid-black-color);
     border: 1px solid var(--solid-black-color);
+}
+
+.btn-solid-secondary:hover{
+    background-color: var(--solid-black-color);
+    color: var(--tertiary-text-color);
+}
+
+.btn-solid-secondary:hover .btn-icon-img{
+    background-color: var(--light-yellow-color);
 }
