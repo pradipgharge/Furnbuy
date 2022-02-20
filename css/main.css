@@ -1,5 +1,9 @@
 @import url(/css/style.css);
 @import url(/css/utilities-2.css);
+@import url(/pages/Cart/cart.css);
+@import url(/pages/Authentication/login/login.css);
+@import url(/pages/Authentication/signup/signup.css);
+@import url(/pages/Authentication/logout/logout.css);
 
 *{
     margin:0;
@@ -10,4 +14,10 @@
 :root{
     --ecom-bg-color:#f1f2f7;
     --checkoutbox-bg-color:#cce5eb;
+}
+
+.btn-solid-black:hover{
+    background-color: var(--tertiary-text-color);
+    color: var(--solid-black-color);
+    border: 1px solid var(--solid-black-color);
 }

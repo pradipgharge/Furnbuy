@@ -1,0 +1,59 @@
+@import url(/css/main.css);
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width:25rem;
+    padding: 1.5rem;
+    background-color: var(--checkoutbox-bg-color);
+    gap:10px;
+    margin: 5rem auto;
+    border-radius:4px;
+    border: 1px solid var(--light-gray-color)
+}
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-body{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-btn-container{
+    display: flex;
+    flex-direction: column;
+    padding:8px 0;
+    gap:8px;
+}
+
+.btn-link-primary{
+    color: var(--solid-black-color);
+    font-weight: 500;
+}
+
+.btn-wide{
+    width: 100%;
+    justify-content: center;
+}
+
+.std-input input{
+    width: auto;
+}

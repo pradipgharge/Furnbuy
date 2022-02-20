@@ -33,7 +33,7 @@ body{
 
 .search-bar{
     display: flex;
-    border: 1px solid black;
+    border: 1px var(--solid-black-color);
     width: 28rem;
     padding: 0.4rem;
     border-radius: 1rem;

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://linearui.netlify.app/css/main.css">
+    <link rel="stylesheet" href="/pages/Authentication/signup/signup.css">
+    <title>Furnbuy | Signup</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container-2">
+            <div>
+                <a href="/index.html">
+                    <span class="header-title">Furnbuy</span>
+                </a>
+            </div>
+            <ul class="navbar-left">
+                <li>
+                    <a href="#">
+                        <span class="header-pills">Products</span>
+                    </a>
+                </li>
+                <li class="search-bar">
+                    <button class="btn-search-bar">
+                        <img class="btn-icon-img" src="/Assets/icons/btn-search.svg" alt="search icon">
+                    </button>
+                    <input class="search-bar-input" type="text" placeholder="Search products...">
+                </li>
+            </ul>
+            <ul class="navbar-right">
+                <li>
+                    <a href="#">
+                        <div class="badge bd-sm">
+                            <img class="badge-icon" src="/Assets/icons/btn-heart.svg" alt="heart icon">
+                            <span class="bd-count">2</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/pages/Authentication/signup/signup.html">
+                        <div>
+                            <img class="badge-icon" src="/Assets/icons/btn-profile.svg" alt="profile icon">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/pages/Cart/cart.html">
+                        <div class="badge bd-sm">
+                            <img class="badge-icon" src="/Assets/icons/btn-cart.svg" alt=" cart icon">
+                            <span class="bd-count">3</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="homepage-container">
+        <main class="hero-container container-2">
+            <div class="signup-form">
+                <span class="form-header">
+                    <h1>Sign up</h1>
+                    <p class="gray-text">Please enter your details below</p>
+                </span>
+                <form class="signup-body">
+                    <div class="std-input input-container">
+                        <span class="input-wrapper">
+                            <label for="first-name">First name:</label>
+                            <input id="first-name" type="text"/>
+                        </span>
+                        <span class="input-wrapper">
+                            <label for="second-name">Last name:</label>
+                            <input id="second-name" type="text"/>
+                        </span>
+                    </div>
+                    <div class="std-input">
+                        <label for="user-email">Email</label>
+                        <input id="user-email" type="email">
+                    </div>
+                    <div class="std-input">
+                        <label for="user-password">Password</label>
+                        <input id="user-password" type="password">
+                    </div>
+                    <div class="std-input password-check-div">
+                        <label for="confirm-password">Re-enter Password</label>
+                        <input id="confirm-password" type="password">
+                        <button class="btn-password-check">
+                            <img class="btn-icon-img" src="/Assets/icons/password-eye.svg" alt="show password icon">
+                        </button>
+                    </div>
+                    <div class="checkbox-input">
+                        <span>
+                            <label for="agree-t&c">
+                                <input id="agree-t&c" type="checkbox">
+                                I've read and agree with Terms of Service and the Privacy Policy.
+                            </label>
+                        </span>
+                    </div>
+                    <div class="form-btn-container">
+                        <button class="btn btn-solid-black btn-wide">Sign up</button>
+                        <span class="text-center">OR</span>
+                        <button class="btn btn-icon btn-outline-black btn-wide">
+                            <img class="btn-icon-img" src="/Assets/icons/google1.svg" alt="google icon">
+                            <p>Sign up with Google</p>
+                        </button>
+                    </div>
+                </form>
+                <hr>
+                <div class="form-footer">
+                    <span>Already have an account?</span>
+                    <a href="/pages/Authentication/login/login.html">
+                        <button class="btn btn-link-primary">Sign in</button>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+</html>
