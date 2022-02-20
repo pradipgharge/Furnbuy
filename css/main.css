@@ -1,5 +1,9 @@
 @import url(/css/style.css);
 @import url(/css/utilities-2.css);
+@import url(/pages/Cart/cart.css);
+@import url(/pages/Authentication/login/login.css);
+@import url(/pages/Authentication/signup/signup.css);
+@import url(/pages/Authentication/logout/logout.css);
 
 *{
     margin:0;

@@ -1,0 +1,12 @@
+@import url(/css/main.css);
+
+.page-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh
+}
+
+.logout-msg{
+    text-align: center;
+}
