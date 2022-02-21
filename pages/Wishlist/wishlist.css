@@ -16,8 +16,10 @@
 
 .wishlist-items{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top:1rem;
+    gap: 1.5rem;
 }
 
 .btn-dismiss:hover{

@@ -4,3 +4,8 @@
     width:95%;
     margin: auto;
 }
+
+.btn-wide{
+    width: 100%;
+    justify-content: center;
+}

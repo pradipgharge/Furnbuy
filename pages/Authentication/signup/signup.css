@@ -1,4 +1,6 @@
 @import url(/css/main.css);
+
+/* signup form styling */
 .signup-form{
     width: 29rem;
     background-color: var(--checkoutbox-bg-color);

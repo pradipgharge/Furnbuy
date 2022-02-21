@@ -1,5 +1,6 @@
 @import url(/css/main.css);
 
+/* login form styling*/
 .login-form{
     display: flex;
     flex-direction: column;
@@ -47,11 +48,6 @@
 .btn-link-primary{
     color: var(--solid-black-color);
     font-weight: 500;
-}
-
-.btn-wide{
-    width: 100%;
-    justify-content: center;
 }
 
 .std-input input{

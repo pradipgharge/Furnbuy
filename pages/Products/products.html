@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://linearui.netlify.app/css/main.css">
+    <link rel="stylesheet" href="/pages/Products/products.css">
+    <title>Furnbuy | Products</title>
+</head>
+<body>
+    <header class="header header-fixed">
+        <nav class="navbar container-2">
+            <div>
+                <a href="/index.html">
+                    <span class="header-title">Furnbuy</span>
+                </a>
+            </div>
+            <ul class="navbar-left">
+                <li>
+                    <a href="/pages/Products/products.html">
+                        <span class="header-pills">Products</span>
+                    </a>
+                </li>
+                <li class="search-bar">
+                    <button class="btn-search-bar">
+                        <img class="btn-icon-img" src="/Assets/icons/btn-search.svg">
+                    </button>
+                    <input class="search-bar-input" type="text" placeholder="Search products...">
+                </li>
+            </ul>
+            <ul class="navbar-right">
+                <li>
+                    <a href="/pages/Wishlist/wishlist.html">
+                        <div class="badge bd-sm">
+                            <img class="badge-icon" src="/Assets/icons/btn-heart2.svg" alt="heart icon">
+                            <span class="bd-count">2</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/pages/Authentication/login/login.html">
+                        <div>
+                            <img class="badge-icon" src="/Assets/icons/btn-profile.svg" alt="profile icon">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/pages/Cart/cart.html">
+                        <div class="badge bd-sm">
+                            <img class="badge-icon" src="/Assets/icons/btn-cart.svg" alt="cart icon">
+                            <span class="bd-count">3</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-home-container">
+            <aside class="filter-container">
+                <div class="filter-header">
+                    <span>Filter by</span>
+                    <a href="/pages/Authentication/signup/signup.html">
+                        <button class="btn btn-link-primary">Clear</button>
+                    </a>
+                </div>
+                <hr>
+                <div class="filter-body">
+                    <div class="filter-subtype">
+                        <h3 class="subtype-heading">Categories</h3>
+                        <div class="checkbox-input">
+                            <label for="chairs-sofas">
+                                <input id="chairs-sofas" type="checkbox">
+                                Chairs & Sofas
+                            </label>
+                            <span>(120+)</span>
+                        </div>
+                        <div class="checkbox-input">
+                            <label for="shelves">
+                                <input id="shelves" type="checkbox">
+                                Shelves
+                            </label>
+                            <span>(101)</span>
+                        </div>
+                        <div class="checkbox-input">
+                            <label for="lightings">
+                                <input id="lightings" type="checkbox">
+                                Lightings
+                            </label>
+                            <span>(61)</span>
+                        </div>
+                        <div class="checkbox-input">
+                            <label for="stools-benches">
+                                <input id="stools-benches" type="checkbox">
+                                Stools & Benches
+                            </label>
+                            <span>(45)</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="filter-subtype">
+                        <h3 class="subtype-heading">Price</h3>
+                        <div class="price-range">
+                            <span>30$</span>
+                            <span>999$</span>
+                        </div>
+                        <input class="range-slider" type="range" min="30" max="900">
+                    </div>
+                    <hr>
+                    <div class="filter-subtype">
+                        <h3 class="subtype-heading">Rating</h3>
+                        <div class="radio-input">
+                            <input id="four-plus" type="radio" name="rating" value="four-plus" checked>
+                            <label for="four-plus">4 stars & above</label>
+                        </div>
+                        <div class="radio-input">
+                            <input id="three-plus" type="radio" name="rating" value="three-plus">
+                            <label for="three-plus">3 stars & above</label>
+                        </div>
+                        <div class="radio-input">
+                            <input id="two-plus" type="radio" name="rating" value="two-plus">
+                            <label for="two-plus">2 stars & above</label>
+                        </div>
+                        <div class="radio-input">
+                            <input id="one-plus" type="radio" name="rating" value="one-plus">
+                            <label for="one-plus">1 star & above</label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="filter-subtype">
+                        <h3 class="subtype-heading">Sort by</h3>
+                        <div class="radio-input">
+                            <input id="low-to-high" type="radio" name="sort" value="low-to-high" checked>
+                            <label for="low-to-high">Price: Low to High</label>
+                        </div>
+                        <div class="radio-input">
+                            <input id="high-low-to" type="radio" name="sort" value="high-low-to" >
+                            <label for="high-low-to">Price: High to Low</label>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div class="products-container">
+                <h1 class="products-heading">Showing All Products</h1>
+                <div class="product-card-container">
+                    <div class="card card-vt">
+                        <div class="card-header">
+                            <img class="card-img" src="/Assets/Images/bed4.jpg" alt="card image">
+                            <span class="btn-wishlist"><img src="/Assets/Icons/btn-wishlist.svg" alt="card icon"></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bed</h5>
+                            <small class="card-subtitle">Queen size bed</small>
+                            <div class="card-pricing">
+                                <h5>Rs. 6700</h5>
+                                <h5 class="font-light strikethrough">Rs.13400</h5>
+                                <h5 class="card-discount">(50% Off)</h5>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class=" btn btn-solid-primary">Buy Now</button>
+                            <button class="btn btn-icon btn-solid-secondary">
+                                <img class="btn-icon-img" src="/Assets/icons/btn-cart2.svg" alt="icon">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card card-vt">
+                        <div class="card-header">
+                            <img class="card-img" src="/Assets/Images/wall-bookshelf.jpg" alt="card image">
+                            <span class="btn-wishlist"><img src="/Assets/Icons/btn-wishlist.svg" alt="card icon"></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bookshelf</h5>
+                            <small class="card-subtitle">Floating Wall bookshelf</small>
+                            <div class="card-pricing">
+                                <h5>Rs. 7500</h5>
+                                <h5 class="font-light strikethrough">Rs.15000</h5>
+                                <h5 class="card-discount">(50% Off)</h5>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class=" btn btn-solid-primary">Buy Now</button>
+                            <button class="btn btn-icon btn-solid-secondary">
+                                <img class="btn-icon-img" src="/Assets/icons/btn-cart2.svg" alt="icon">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card card-vt card-overlay">
+                        <div class="card-header">
+                            <img class="card-img" src="/Assets/Images/sofa4.jpg" alt="card image">
+                            <span class="card-bdg">Sale</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Sofa</h5>
+                            <small class="card-subtitle">3 Seater lounge sofa</small>
+                            <div class="card-pricing">
+                                <h5>Rs. 5600</h5>
+                                <h5 class="font-light strikethrough">Rs.11200</h5>
+                                <h5 class="card-discount">(50% Off)</h5>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class=" btn btn-solid-primary">Buy Now</button>
+                            <button class="btn btn-icon btn-solid-secondary">
+                                <img class="btn-icon-img" src="/Assets/icons/btn-cart2.svg" alt="icon">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                        <div class="card-txt-overlay">Out of Stock</div>
+                    </div>
+                    <div class="card card-vt">
+                        <div class="card-header">
+                            <img class="card-img" src="/Assets/Images/study-desk.jpg" alt="card image">
+                            <span class="btn-wishlist"><img src="/Assets/Icons/btn-wishlist.svg" alt="card icon"></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Study desk</h5>
+                            <small class="card-subtitle">Wall mounted desk</small>
+                            <div class="card-pricing">
+                                <h5>Rs. 4200</h5>
+                                <h5 class="font-light strikethrough">Rs.8400</h5>
+                                <h5 class="card-discount">(50% Off)</h5>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class=" btn btn-solid-primary">Buy Now</button>
+                            <button class="btn btn-icon btn-solid-secondary">
+                                <img class="btn-icon-img" src="/Assets/icons/btn-cart2.svg" alt="icon">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card card-vt">
+                        <div class="card-header">
+                            <img class="card-img" src="/Assets/Images/coffee-table.jpg" alt="card image">
+                            <span class="btn-wishlist"><img src="/Assets/Icons/btn-wishlist.svg" alt="card icon"></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Table</h5>
+                            <small class="card-subtitle">Round lift walnut table</small>
+                            <div class="card-pricing">
+                                <h5>Rs. 4800</h5>
+                                <h5 class="font-light strikethrough">Rs.9600</h5>
+                                <h5 class="card-discount">(50% Off)</h5>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class=" btn btn-solid-primary">Buy Now</button>
+                            <button class="btn btn-icon btn-solid-secondary">
+                                <img class="btn-icon-img" src="/Assets/icons/btn-cart2.svg" alt="icon">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card card-vt">
+                        <div class="card-header">
+                            <img class="card-img" src="/Assets/Images/bar-stool1.jpg" alt="card image">
+                            <span class="btn-wishlist"><img src="/Assets/Icons/btn-wishlist.svg" alt="card icon"></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Stool</h5>
+                            <small class="card-subtitle">Antique royal bar stool</small>
+                            <div class="card-pricing">
+                                <h5>Rs. 3450</h5>
+                                <h5 class="font-light strikethrough">Rs.6900</h5>
+                                <h5 class="card-discount">(50% Off)</h5>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class=" btn btn-solid-primary">Buy Now</button>
+                            <button class="btn btn-icon btn-solid-secondary">
+                                <img class="btn-icon-img" src="/Assets/icons/btn-cart2.svg" alt="icon">
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
