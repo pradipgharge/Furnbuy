@@ -1,6 +1,5 @@
 @import url(/css/main.css);
 
-
 body{
     background-color: var(--ecom-bg-color);
 }
@@ -26,11 +25,12 @@ body{
 .header-title{
     font-size: 1.8rem;
     font-weight: 400;
+    padding: 6px 0;
     color: var(--tertiary-text-color);
 }
 
 .header-pills{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--tertiary-text-color);
 }
 
@@ -70,6 +70,11 @@ body{
     gap:3rem;
 }
 
+.bd-count{
+    height:1rem;
+    width:1rem;
+}
+
 .hero-container{
     display:flex;
     flex-direction: column;
@@ -88,7 +93,7 @@ body{
 }
 
 .banner-img{
-    opacity: 80%;
+    opacity: 75%;
 }
 
 .box-overlay{
@@ -111,7 +116,8 @@ body{
 
 .overlay-para {
     color:var(--solid-black-color) ;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     padding-bottom: 1.5rem;
 }
 
@@ -143,10 +149,15 @@ body{
     font-size: 1.7rem;
 }
 
-.btn-container-1{
+.btn-container{
     display: flex;
     margin-left: auto;
     gap: 6px;
+}
+
+.btn-float{
+    width: 2rem;
+    height: 2rem;
 }
 
 .feature-body{

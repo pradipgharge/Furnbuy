@@ -1,0 +1,99 @@
+@import url(/css/main.css);
+
+.product-home-container{
+    position: relative;
+    width: 100%;
+    padding-top: 3.8rem;
+    z-index: 1;
+}
+
+/* Sidebar styling */
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:60px;
+    left:0;
+    width: 18.75rem;
+    height:100%;
+    padding:1.5rem;
+    background-color:var(--checkoutbox-bg-color);
+    gap:1rem;
+    
+}
+
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 500;
+    align-items:center;
+}
+
+.filter-header .btn-link-primary{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.filter-body{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.subtype-heading{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.filter-subtype{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.price-range{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-subtype input{
+    cursor: pointer;
+}
+
+hr{
+    height:1px;
+    background-color: var(--solid-black-color);
+    border: none;
+}
+
+/* Products container styling */
+.products-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 18.75rem;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+}
+
+.products-heading{
+    padding-left: 2.6rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.product-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:1.5rem;
+}
+
+.btn-wishlist{
+    transition: all ease-in 0.2s;
+}
+.btn-wishlist:hover{
+    transform:scale(1.15);
+}
